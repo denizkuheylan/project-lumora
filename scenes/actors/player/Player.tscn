@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://1upjh1m6huw"]
+
+[ext_resource type="Script" uid="uid://7ctk55tb6kgq" path="res://project-lumora/scripts/systems/player/Player.gd" id="1_a4np5"]
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_a4np5")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
